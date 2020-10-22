@@ -617,4 +617,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/iceca/Documents/Unity Projects/Challenge 2 Build Final/Platformer.exe
+  playerPath: C:/Users/iceca/Documents/Unity Projects/Challenge 2 Final Build/Platformer.exe

@@ -74,8 +74,8 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
-  - {fileID: 19}
-  m_MainToolbar: {fileID: 19}
+  - {fileID: 20}
+  m_MainToolbar: {fileID: 20}
   m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
@@ -100,10 +100,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 911, y: 442}
-  m_MaxSize: {x: 22006, y: 10021}
+  m_MinSize: {x: 910, y: 421}
+  m_MaxSize: {x: 22005, y: 10021}
   vertical: 0
-  controlID: 41
+  controlID: 86
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,10 +146,10 @@ MonoBehaviour:
     y: 0
     width: 922
     height: 947
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 42
+  controlID: 141
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,9 +171,9 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &8
@@ -197,10 +197,10 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 13}
+  - {fileID: 17}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &9
@@ -224,9 +224,9 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -250,9 +250,10 @@ MonoBehaviour:
     height: 484
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
@@ -275,14 +276,39 @@ MonoBehaviour:
     y: 484
     width: 922
     height: 463
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 921
+    height: 463
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,16 +335,16 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 3294277173268952044, guid: cd0f4b251c74bb947937d33721e29a4f, type: 2}
+    - {fileID: 86283535092138609, guid: da347558b02fd3e4b8397553a13f8422, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.86948377
       e01: 0
       e02: 0
-      e03: 0
+      e03: 49.641006
       e10: 0
-      e11: 1
+      e11: 0.86948377
       e12: 0
-      e13: 0
+      e13: 70.485016
       e20: 0
       e21: 0
       e22: 1
@@ -328,9 +354,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: cd0f4b251c74bb947937d33721e29a4f, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: da347558b02fd3e4b8397553a13f8422, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 3294277173268952044, guid: cd0f4b251c74bb947937d33721e29a4f, type: 2}
+  - m_Target: {fileID: 86283535092138609, guid: da347558b02fd3e4b8397553a13f8422, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -343,7 +369,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -363,13 +389,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 993
+    x: 1163
     y: 73
-    width: 319
+    width: 230
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 15318
+    ID: 15446
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -394,15 +420,15 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 13}
+    m_Window: {fileID: 14}
     newResultList:
-    - id: 1003
-      uniqueId: '[t1-f20][suite]'
-      name: t1-f20
-      fullName: t1-f20
-      resultStatus: 2
-      duration: 22.020618
-      messages: One or more child tests had errors
+    - id: 1000
+      uniqueId: '[Platformer][suite]'
+      name: Platformer
+      fullName: Platformer
+      resultStatus: 0
+      duration: 0
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -412,353 +438,13 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1010
-      uniqueId: '[PlayTests.dll][suite]'
-      name: PlayTests.dll
-      fullName: C:/Users/iceca/Documents/GithubStuff/dig3480-f20-t1-tchelderman/Library/ScriptAssemblies/PlayTests.dll
-      resultStatus: 1
-      duration: 21.973698
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1003
-      parentUniqueId: '[t1-f20][suite]'
-    - id: 1011
-      uniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 21.966513
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1010
-      parentUniqueId: '[PlayTests.dll][suite]'
-    - id: 1004
-      uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-      name: RollABallTests
-      fullName: Tests.RollABallTests
-      resultStatus: 1
-      duration: 12.608819
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1011
-      parentUniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-    - id: 1005
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestCameraControllerPresent]
-      name: TestCameraControllerPresent
-      fullName: Tests.RollABallTests.TestCameraControllerPresent
-      resultStatus: 1
-      duration: 2.190837
-      messages: 
-      output: '(7.8, 0.5, 7.8)
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1006
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPhysicsSetup]
-      name: TestPhysicsSetup
-      fullName: Tests.RollABallTests.TestPhysicsSetup
-      resultStatus: 1
-      duration: 0.0719715
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1007
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPlayerControls]
-      name: TestPlayerControls
-      fullName: Tests.RollABallTests.TestPlayerControls
-      resultStatus: 1
-      duration: 6.6947336
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1008
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPlayerDoesntFall]
-      name: TestPlayerDoesntFall
-      fullName: Tests.RollABallTests.TestPlayerDoesntFall
-      resultStatus: 1
-      duration: 3.5687575
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1009
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPlayerExists]
-      name: TestPlayerExists
-      fullName: Tests.RollABallTests.TestPlayerExists
-      resultStatus: 1
-      duration: 0.0635235
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1001
-      uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-      name: RollABallTestsPickups
-      fullName: Tests.RollABallTestsPickups
-      resultStatus: 1
-      duration: 5.145133
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1013
-      parentUniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-    - id: 1002
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestPickupConfiguration]
-      name: TestPickupConfiguration
-      fullName: Tests.RollABallTestsPickups.TestPickupConfiguration
-      resultStatus: 1
-      duration: 1.0207199
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1003
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestPickUpRemoved]
-      name: TestPickUpRemoved
-      fullName: Tests.RollABallTestsPickups.TestPickUpRemoved
-      resultStatus: 1
-      duration: 2.070681
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1004
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestPickUpsHaveTag]
-      name: TestPickUpsHaveTag
-      fullName: Tests.RollABallTestsPickups.TestPickUpsHaveTag
-      resultStatus: 1
-      duration: 1.0222114
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1005
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestRotatorPresent]
-      name: TestRotatorPresent
-      fullName: Tests.RollABallTestsPickups.TestRotatorPresent
-      resultStatus: 1
-      duration: 1.0207388
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1006
-      uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-      name: RollABallTestsScoring
-      fullName: Tests.RollABallTestsScoring
-      resultStatus: 1
-      duration: 4.2040887
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1017
-      parentUniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-    - id: 1008
-      uniqueId: PlayTests.dll/Tests/RollABallTestsScoring/[PlayTests][Tests.RollABallTestsScoring.TestScoreOnCollide]
-      name: TestScoreOnCollide
-      fullName: Tests.RollABallTestsScoring.TestScoreOnCollide
-      resultStatus: 1
-      duration: 2.062971
-      messages: 
-      output: '0
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-    - id: 1007
-      uniqueId: PlayTests.dll/Tests/RollABallTestsScoring/[PlayTests][Tests.RollABallTestsScoring.TestScorePresent]
-      name: TestScorePresent
-      fullName: Tests.RollABallTestsScoring.TestScorePresent
-      resultStatus: 1
-      duration: 0.0644732
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-    - id: 1009
-      uniqueId: PlayTests.dll/Tests/RollABallTestsScoring/[PlayTests][Tests.RollABallTestsScoring.TestWinText]
-      name: TestWinText
-      fullName: Tests.RollABallTestsScoring.TestWinText
-      resultStatus: 1
-      duration: 2.0687075
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-    - id: 1014
-      uniqueId: '[Unity.InputSystem.IntegrationTests][C:/Users/iceca/Documents/GithubStuff/dig3480-f20-t1-tchelderman/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll][suite]'
-      name: Unity.InputSystem.IntegrationTests.dll
-      fullName: C:/Users/iceca/Documents/GithubStuff/dig3480-f20-t1-tchelderman/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
-      resultStatus: 2
-      duration: 0.0225006
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1003
-      parentUniqueId: '[t1-f20][suite]'
-    - id: 1012
-      uniqueId: Unity.InputSystem.IntegrationTests.dll/[Unity.InputSystem.IntegrationTests][IntegrationTests][suite]
-      name: IntegrationTests
-      fullName: IntegrationTests
-      resultStatus: 2
-      duration: 0.0167942
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1014
-      parentUniqueId: '[Unity.InputSystem.IntegrationTests][C:/Users/iceca/Documents/GithubStuff/dig3480-f20-t1-tchelderman/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll][suite]'
-    - id: 1013
-      uniqueId: Unity.InputSystem.IntegrationTests.dll/IntegrationTests/[Unity.InputSystem.IntegrationTests][IntegrationTests.Integration_CanSendAndReceiveEvents]
-      name: Integration_CanSendAndReceiveEvents
-      fullName: IntegrationTests.Integration_CanSendAndReceiveEvents
-      resultStatus: 2
-      duration: 0.012675
-      messages: "  Expected: True\r\n  But was:  False\r\n"
-      output: 
-      stacktrace: 'at IntegrationTests.Integration_CanSendAndReceiveEvents () [0x0002b]
-        in C:\Users\iceca\Documents\GithubStuff\dig3480-f20-t1-tchelderman\Library\PackageCache\com.unity.inputsystem@1.0.0\Tests\IntegrationTests\IntegrationTests.cs:36
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Integration
-      parentId: 1012
-      parentUniqueId: Unity.InputSystem.IntegrationTests.dll/[Unity.InputSystem.IntegrationTests][IntegrationTests][suite]
     m_ResultText: RollABallTestsScoring (4.204s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 0f44edc1
       m_LastClickedID: -1041415153
-      m_ExpandedIDs: 050048895efec1990f44edc1baca32c78c1e39df3d58f7f00664c9536d03765bffffff7f
+      m_ExpandedIDs: 0500488974de8b935efec1990f44edc1baca32c78c1e39df3d58f7f00664c9536d03765bffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -783,10 +469,9 @@ MonoBehaviour:
       m_SearchString: 
       selectedCategoryMask: 0
       availableCategories:
-      - Integration
       - Uncategorized
   m_EditModeTestListGUI:
-    m_Window: {fileID: 13}
+    m_Window: {fileID: 14}
     newResultList:
     - id: 1000
       uniqueId: '[t1-f20][suite]'
@@ -836,7 +521,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -864,9 +549,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b8faffff
-      m_LastClickedID: -1352
-      m_ExpandedIDs: 58d9ffffb8faffff5cfbffffd43b0000de3b0000ee3b0000
+      m_SelectedIDs: da3b0000ec3b00001a3c00002a3c00008c3c0000b83c0000c03c0000083d0000
+      m_LastClickedID: 15624
+      m_ExpandedIDs: 5cfbffff543c0000663c0000783c0000f23c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -890,7 +575,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 72536219af963bc4b9eec79602c50663
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -928,7 +613,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -966,7 +651,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Music
     m_Globs: []
   m_ViewMode: 0
   m_StartGridSize: 67
@@ -979,7 +664,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0a4b0000
     m_LastClickedID: 19210
-    m_ExpandedIDs: 000000003e3c0000403c0000423c0000443c0000
+    m_ExpandedIDs: 00000000b63d0000b83d0000ba3d0000bc3d0000be3d0000c03d0000c23d0000c43d0000c63d0000c83d0000ca3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1004,10 +689,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 11}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000003e3c0000403c0000423c0000443c0000703c0000
+    m_ExpandedIDs: ffffffff00000000b63d0000b83d0000ba3d0000bc3d0000be3d0000c03d0000c23d0000c43d0000c63d0000c83d0000ca3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1063,7 +748,7 @@ MonoBehaviour:
     m_GridSize: 67
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1152,7 +837,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1188,9 +873,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 6.1149216, y: 1.8968925, z: -12.850416}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 6.1149216, y: 1.8968925, z: -12.850416}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1241,9 +926,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 12.39351
     speed: 2
-    m_Value: 10
+    m_Value: 12.39351
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1268,7 +953,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

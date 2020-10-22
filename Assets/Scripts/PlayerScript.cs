@@ -117,7 +117,7 @@ public class PlayerScript : MonoBehaviour
 
         if (scoreValue >= 8)
         {
-            winText.text = "You win!";
+            winText.text = "You win! Game made by Tyler Helderman.";
             musicSource.Stop();
             musicSource.clip = musicClipTwo;
             musicSource.Play();
